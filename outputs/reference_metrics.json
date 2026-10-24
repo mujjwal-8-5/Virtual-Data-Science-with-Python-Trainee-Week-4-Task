@@ -1,0 +1,51 @@
+{
+  "note": "Reference run generated with scikit-learn using the settings in src/train_model.py; rerun script to generate environment-specific metrics.",
+  "dataset": "Wisconsin Diagnostic Breast Cancer (scikit-learn bundled copy)",
+  "n_samples": 569,
+  "n_features": 30,
+  "train_samples": 455,
+  "test_samples": 114,
+  "class_mapping": {
+    "0": "malignant",
+    "1": "benign"
+  },
+  "test_metrics_positive_class_benign": {
+    "accuracy": 0.9824561403508771,
+    "precision": 0.9861111111111112,
+    "recall": 0.9861111111111112,
+    "f1": 0.9861111111111112,
+    "roc_auc": 0.9953703703703703
+  },
+  "confusion_matrix_labels_order_0_malignant_1_benign": [
+    [
+      41,
+      1
+    ],
+    [
+      1,
+      71
+    ]
+  ],
+  "five_fold_stratified_cv": {
+    "accuracy": {
+      "mean": 0.9736686849868033,
+      "std": 0.016627222216787987
+    },
+    "precision": {
+      "mean": 0.9682543479911901,
+      "std": 0.02898269859790888
+    },
+    "recall": {
+      "mean": 0.9915884194053209,
+      "std": 0.011248298969685487
+    },
+    "f1": {
+      "mean": 0.9794339645403476,
+      "std": 0.01272544195434712
+    },
+    "roc_auc": {
+      "mean": 0.9953143278274297,
+      "std": 0.005345297368904418
+    }
+  }
+}
